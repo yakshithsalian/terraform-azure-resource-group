@@ -6,7 +6,6 @@ Another Terraform script to create Azure Resource Groups.
 
 This module accepts the following variables
 
-
 | Name    | Description     | Required / Optional |
 | ------- | --------------- | ---------- |
 | name    | The name of the resource group. Must be unique on your Azure subscription | Required |
