@@ -17,7 +17,7 @@ variable "app" {
 variable "environment" {
   type = "string"
   description = "(Optional) Environment name. If not specified, this module will use workspace as default value"
-  default = "${terraform.workspace}"
+  default = "default"
 }
 
 variable "creator" {
