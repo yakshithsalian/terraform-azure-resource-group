@@ -3,8 +3,8 @@ resource "azurerm_resource_group" "cloudcommons" {
   location = "${var.location}"
 
   tags = {
-    app = "${var.app}"    
+    app         = "${var.app}"
     environment = "${var.environment}"
-    creator = "${var.creator}"   
+    creator     = "${var.creator}"
   }
 }
