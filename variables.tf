@@ -25,3 +25,8 @@ variable "tenantID" {
   description = "(Optional) Adds a tag indicating the creator of this resource"
   default     = "cloudcommons"
 }
+variable "subscriptionID" {
+  type        = string
+  description = "(Optional) Adds a tag indicating the creator of this resource"
+  default     = "cloudcommons"
+}
