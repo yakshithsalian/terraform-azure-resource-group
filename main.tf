@@ -8,7 +8,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "terraformDemo" {
+resource "azurerm_resource_group" "terraformDemo9" {
   name      = var.RGName
   location  = var.location
 }
